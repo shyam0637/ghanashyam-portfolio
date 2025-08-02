@@ -137,6 +137,13 @@ const Resume = () => (
 const ResearchPaper = () => (
   <section id="research-paper">
     <h2 className="text-3xl font-bold text-gray-700 mb-6 border-b-2 border-blue-400 pb-2">Research Paper: Draft</h2>
+    <a
+        href="/ghanashyam-portfolio/research-paper.pdf"
+        download="Ghanashyam-Mandal-Research-Paper.pdf"
+        className="bg-blue-600 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 transition-colors duration-300"
+      >
+        Download PDF
+      </a>
     <div className="p-6 bg-yellow-50 rounded-lg shadow-inner border-l-4 border-yellow-400 mb-6">
       <p className="text-xl font-medium text-yellow-800">
         <span className="font-bold">Status:</span> This research paper is a draft and has not yet been submitted for publication.
@@ -157,7 +164,7 @@ const ResearchPaper = () => (
         <p>The increasing global demand for sustainable and low-carbon energy sources positions nuclear power as a critical component of future energy infrastructure. However, the long-term operational integrity and economic viability of nuclear reactors are fundamentally limited by the degradation of their structural materials under harsh in-core environments. A primary challenge stems from radiation damage induced by high-energy neutron bombardment.</p>
       </div>
 
-      <h4 className="text-xl font-bold text-gray-600">Nuclear Reactor Technologies: Design and Operating Environments</h4>
+      <h4 className="text-xl font-bold text-gray-600">Nuclear Reactor: Types</h4>
       <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
         <p>To contextualize the material challenges faced by nuclear power, it is essential to first understand the categorization and operational evolution of nuclear reactor designs. Reactors are broadly classified into generations based on their technological advancement and design characteristics:</p>
         <ul className="list-disc list-inside mt-2 space-y-1">
